@@ -211,6 +211,7 @@ body {
 
     .about{
         margin-top: 40vh;
+        justify-content: center;
     }
 
     .heroText {
