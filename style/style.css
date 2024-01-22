@@ -87,6 +87,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    margin-bottom: 30vh;
 }
 
 .aboutTextH1 {
@@ -97,18 +98,17 @@ body {
     color: #3E3531;
     margin-left: -100px;
     width: 30vw;
+    line-height: 1.1;
 }
 
 .aboutTextH2 {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
-    letter-spacing: px;
     color: #3E3531;
     margin-left: -100px;
     width: 40vw;
     line-height: 1.1;
-
 }
 
 .aboutTextCont {
@@ -129,6 +129,8 @@ body {
     letter-spacing: -1px;
     color: #FDFDFD;
     width: 70vw;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .heroSpan {
@@ -137,4 +139,82 @@ body {
 
 .mockupCalidus {
     height: 120%;
+}
+
+.waarom{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.waaromCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20vh;
+}
+
+.waaromTextH1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    letter-spacing: -1px;
+    color: #3E3531;
+    width: 30vw;
+    line-height: 1.1;
+    padding-bottom: 20px;
+}
+
+.waarom p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #3E3531;
+    line-height: 1.1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.listItem{
+    display: flex;
+    gap: 5px;
+}
+
+.imgWaarom{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.waaromButton{
+    margin-top: 40px;
+    width: 160px;
+    background-color:#F76626;
+    border: none;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.waaromButton:hover{
+    opacity: 80%;
+    cursor:pointer;
+}
+
+.waaromButton p{
+    color: #FDFDFD;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 1580px) {
+    .heroText {
+        width: 65vw;
+    }
+}
+
+@media only screen and (min-width: 1780px) {
+    .heroText {
+        width: 55vw;
+    }
 }
