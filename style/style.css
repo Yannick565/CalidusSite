@@ -208,12 +208,27 @@ body {
 }
 
 @media only screen and (min-width: 1580px) {
+
+    .about{
+        margin-top: 40vh;
+    }
+
     .heroText {
         width: 65vw;
     }
+
+    .aboutTextH1{
+        width: 25vw;
+    }
+
+    .aboutTextH2{
+        width: 30vw;
+    }
+
 }
 
 @media only screen and (min-width: 1780px) {
+
     .heroText {
         width: 55vw;
     }
